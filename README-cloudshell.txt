@@ -1,35 +1,48 @@
-# Projeto de Computação em Nuvem com Terraform
+# Criando o projeto google cloud com terraform
 
-Estou começando e mais uma etapa na busca por conhecimento,
-dessa vez fui desafiada a criar um projeto que é criar uma  instância de VM e uma função HTTP no Google Cloud usando Terraform.
+Estou começando mais um novo desafio com a criação de um projeto  que é colocar em prática nossos conhecimentos de Terraform para provisionar recursos na nuvem!
 
-## Pré-requisitos
+## Sendo assim, como pré-requisitos temos:
 
-- Conta no Google Cloud Platform
-- Terraform instalado
-- Configuração das credenciais do GCP
+1-criar uma conta no Google Cloud Platform
+2-Terraform instalado
+3-Configuração das credencias do GCP
 
-## Configuração do Projeto
+## Precisou-se configurar o projeto antes, para isso usamos:
 
-1. Escolhi uma região na nuvem:`us-east1-b`.
-3. Criei uma função em Node.js que retorna uma mensagem de boas-vindas.
+1.Escolhi uma região na nuvem: `us-east1-b`
+3.Criei uma função em Node.js que retorna uma mensagem de boas-vindas.
 
-### Arquivos e pastas:
+### Arquivos e pastas utilizados:
 
-   tarefa-function1/
-├── main.tf
-├── README.md
+*pastas
+Cloud-pretalab
 
-1. fiz o download dos arquivos para depois criar o zip:
-   ```codigo-funcao.zip -nome do zip.
-   -index.js 
-   -package.json
+*arquivos
+mai.tf
+terraform.tfvars
+outputs.tf
+provider.tf
+variables.tf
+README.md
 
-Para criar a minha função com terraform, no terminal do console chamei os seguintes comando:
+## Passos para que a função seja criada:
 
--terraform init
--terraform aplan
--terraform apply
+1. Criei uma pasta chamada tarefa-function1;
+2. criei os arquivos *package.json e index.js
+implementei o arquivo main.tf onde vai conter a regra do meu terraform(código).
+
+## Comandos para criar a a minha function no console, com terraform:
+
+-terraform init: O terraform init inicializa o projeto no terminal;
+-terraform aplan: mostra todos os arquivos e ferramentas que estão inplementadas no meu terminal;
+-terraform apply: mostra o status de que o projeto foi criado.
+
+## Projeto rodando no console:
+
+
+
+
 
 
 
