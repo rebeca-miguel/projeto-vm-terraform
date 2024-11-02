@@ -40,11 +40,9 @@ implementei o arquivo main.tf onde vai conter a regra do meu terraform(código).
 
 ## Projeto rodando no console:c:
 
-* No console:
 
 \Users\Engº Manuel Kima\Pictures\Screenshots\function-console.png
 
-* No navegador:
 
 c:\Users\Engº Manuel Kima\Pictures\Screenshots\rodando-no-navegador.png
 
