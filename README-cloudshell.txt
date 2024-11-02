@@ -38,7 +38,17 @@ implementei o arquivo main.tf onde vai conter a regra do meu terraform(código).
 -terraform aplan: mostra todos os arquivos e ferramentas que estão inplementadas no meu terminal;
 -terraform apply: mostra o status de que o projeto foi criado.
 
-## Projeto rodando no console:
+## Projeto rodando no console:c:
+
+* No console:
+
+\Users\Engº Manuel Kima\Pictures\Screenshots\function-console.png
+
+* No navegador:
+
+c:\Users\Engº Manuel Kima\Pictures\Screenshots\rodando-no-navegador.png
+
+
 
 
 
